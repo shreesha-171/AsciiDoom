@@ -25,7 +25,7 @@ The labyrinth is divided into two distinct sectors by a solid barrier. To succes
 | **`J` / `L`** | Rotate View Left / Right |
 | **`Q`** | Quit Game |
 
-## ⚙️ Compilation & Running
+## Compilation & Running
 
 ### Prerequisites
 * **JDK 17** or higher
@@ -53,10 +53,15 @@ java -cp ".:jline-4.4.5.jar" AsciiDoom
 Structure your project directory as follows:
 
 ascii-doom/
+
 ├── pom.xml
+
 └── src/
+
     └── main/
+        
         └── java/
+            
             └── AsciiDoom.java
 
 Execute the build and run pipeline:
@@ -69,8 +74,3 @@ Language: Java 17
 Rendering Engine: Custom DDA (Digital Differential Analysis) 3D Raycaster using 16.16 Fixed-Point Arithmetic.
 
 Terminal Management: JLine 4 (Terminal Raw Mode & ANSI Escape Control).
-
-### For "Launch Demo Application" Button:
-Replace `YOUR_USERNAME` in the badge URL with your actual GitHub username:
-```markdown
-[![Run Application](https://img.shields.io/badge/Launch-Demo_Application-brightgreen?style=for-the-badge&logo=java)](https://github.com/YOUR_GITHUB_USERNAME/ascii-doom/releases/latest)
