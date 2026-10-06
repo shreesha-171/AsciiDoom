@@ -2,6 +2,7 @@
 
 A lightweight, terminal-based 3D raycasting game written in Java using fixed-point arithmetic and JLine. Navigate through an ancient labyrinth, solve environmental gating mechanics, and locate the hidden relic to reveal your escape.
 
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open_in-Codespaces-blue?style=for-the-badge&logo=github)](https://codespaces.new/shreesha-171/ascii-doom)
 [![Run Application](https://img.shields.io/badge/Launch-Demo_Application-brightgreen?style=for-the-badge&logo=java)](https://github.com/shreesha-171/ascii-doom/releases/latest)
 [![Java 17+](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
 [![JLine 4](https://img.shields.io/badge/JLine-4.4.5-blue?style=for-the-badge)](https://github.com/jline/jline3)
